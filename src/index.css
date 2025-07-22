@@ -15,45 +15,52 @@
     --popover: 0 0% 100%;
     --popover-foreground: 213 100% 8%;
 
-    --primary: 213 94% 50%;
+    --primary: 220 100% 55%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 213 94% 90%;
-    --primary-glow: 213 94% 70%;
+    --primary-light: 220 100% 85%;
+    --primary-glow: 220 100% 70%;
 
-    --secondary: 210 40% 96%;
-    --secondary-foreground: 213 100% 8%;
+    --secondary: 45 100% 95%;
+    --secondary-foreground: 220 25% 15%;
 
     --muted: 210 40% 96%;
     --muted-foreground: 215 16% 47%;
 
-    --accent: 213 94% 95%;
-    --accent-foreground: 213 94% 50%;
+    --accent: 160 100% 95%;
+    --accent-foreground: 160 100% 30%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 214 32% 91%;
     --input: 214 32% 91%;
-    --ring: 213 94% 50%;
+    --ring: 220 100% 55%;
 
-    /* CampusFest specific tokens */
-    --campus-blue: 213 94% 50%;
-    --campus-blue-light: 213 94% 90%;
-    --campus-blue-dark: 213 94% 35%;
+    /* CampusFest specific tokens - Enhanced Color Palette */
+    --campus-primary: 220 100% 55%;
+    --campus-primary-light: 220 100% 85%;
+    --campus-primary-dark: 220 100% 40%;
+    --campus-secondary: 45 100% 60%;
+    --campus-accent: 160 100% 50%;
     --campus-white: 0 0% 100%;
-    --campus-gray: 210 6% 93%;
-    --campus-text: 213 100% 8%;
-    --campus-text-light: 215 16% 47%;
+    --campus-gray: 210 15% 96%;
+    --campus-text: 220 25% 15%;
+    --campus-text-light: 220 15% 55%;
+    --campus-success: 142 76% 36%;
+    --campus-warning: 38 92% 50%;
+    --campus-error: 0 84% 60%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--campus-blue)), hsl(var(--primary-glow)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--campus-primary)), hsl(var(--campus-accent)));
     --gradient-card: linear-gradient(145deg, hsl(var(--campus-white)), hsl(var(--campus-gray)));
-    --gradient-button: linear-gradient(135deg, hsl(var(--campus-blue)), hsl(var(--campus-blue-dark)));
+    --gradient-button: linear-gradient(135deg, hsl(var(--campus-primary)), hsl(var(--campus-primary-dark)));
+    --gradient-accent: linear-gradient(90deg, hsl(var(--campus-secondary)), hsl(var(--campus-accent)));
 
     /* Shadows */
-    --shadow-card: 0 4px 12px hsl(var(--campus-blue) / 0.1);
-    --shadow-button: 0 4px 12px hsl(var(--campus-blue) / 0.3);
-    --shadow-hero: 0 8px 32px hsl(var(--campus-blue) / 0.2);
+    --shadow-card: 0 4px 20px hsl(var(--campus-primary) / 0.15);
+    --shadow-button: 0 4px 20px hsl(var(--campus-primary) / 0.4);
+    --shadow-hero: 0 8px 40px hsl(var(--campus-primary) / 0.25);
+    --shadow-accent: 0 4px 16px hsl(var(--campus-accent) / 0.3);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

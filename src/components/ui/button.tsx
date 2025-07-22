@@ -9,17 +9,18 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-campus-blue text-campus-white hover:bg-campus-blue-dark shadow-md hover:shadow-lg transform hover:-translate-y-0.5",
+        default: "bg-campus-primary text-campus-white hover:bg-campus-primary-dark shadow-md hover:shadow-lg transform hover:-translate-y-0.5",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline:
-          "border-2 border-campus-blue text-campus-blue bg-transparent hover:bg-campus-blue hover:text-campus-white",
+          "border-2 border-campus-primary text-campus-primary bg-transparent hover:bg-campus-primary hover:text-campus-white",
         secondary:
-          "bg-campus-gray text-campus-text hover:bg-campus-blue-light",
-        ghost: "text-campus-blue hover:bg-campus-blue-light hover:text-campus-blue-dark",
-        link: "text-campus-blue underline-offset-4 hover:underline",
-        hero: "bg-gradient-to-r from-campus-blue to-campus-blue-dark text-campus-white hover:shadow-xl transform hover:-translate-y-1 text-base font-semibold",
-        cta: "bg-campus-blue text-campus-white hover:bg-campus-blue-dark shadow-lg hover:shadow-xl transform hover:scale-105 font-medium",
+          "bg-campus-secondary text-campus-text hover:bg-campus-secondary/80 hover:shadow-md",
+        ghost: "text-campus-primary hover:bg-campus-primary-light hover:text-campus-primary-dark",
+        link: "text-campus-primary underline-offset-4 hover:underline",
+        hero: "bg-gradient-to-r from-campus-primary to-campus-accent text-campus-white hover:shadow-xl transform hover:-translate-y-1 text-base font-semibold",
+        cta: "bg-gradient-to-r from-campus-primary to-campus-primary-dark text-campus-white hover:shadow-xl transform hover:scale-105 font-medium",
+        accent: "bg-campus-accent text-campus-white hover:bg-campus-accent/90 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5",
       },
       size: {
         default: "h-10 px-4 py-2",

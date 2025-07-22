@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import heroImage from '@/assets/hero-campus.jpg';
+const heroImage = '/lovable-uploads/4a87b8ae-d8e2-4812-b9ab-9bb1143826af.png';
 import { ArrowRight, Calendar, Users, Star } from 'lucide-react';
 
 const Hero = () => {
@@ -12,7 +12,7 @@ const Hero = () => {
           alt="Campus Life" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-campus-blue/90 to-campus-blue-dark/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-campus-primary/85 to-campus-accent/75"></div>
       </div>
 
       {/* Hero Content */}
@@ -27,7 +27,7 @@ const Hero = () => {
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-campus-white mb-6 leading-tight">
             Your Campus,{' '}
-            <span className="bg-gradient-to-r from-campus-white to-campus-blue-light bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-campus-white to-campus-secondary bg-clip-text text-transparent">
               Your Events
             </span>
           </h1>
@@ -51,7 +51,7 @@ const Hero = () => {
             <Button 
               variant="outline" 
               size="lg" 
-              className="text-lg px-8 py-3 h-auto border-campus-white text-campus-white hover:bg-campus-white hover:text-campus-blue"
+              className="text-lg px-8 py-3 h-auto border-campus-white text-campus-white hover:bg-campus-white hover:text-campus-primary"
             >
               Register Now
             </Button>

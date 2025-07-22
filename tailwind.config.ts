@@ -55,13 +55,18 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				campus: {
-					blue: 'hsl(var(--campus-blue))',
-					'blue-light': 'hsl(var(--campus-blue-light))',
-					'blue-dark': 'hsl(var(--campus-blue-dark))',
+					primary: 'hsl(var(--campus-primary))',
+					'primary-light': 'hsl(var(--campus-primary-light))',
+					'primary-dark': 'hsl(var(--campus-primary-dark))',
+					secondary: 'hsl(var(--campus-secondary))',
+					accent: 'hsl(var(--campus-accent))',
 					white: 'hsl(var(--campus-white))',
 					gray: 'hsl(var(--campus-gray))',
 					text: 'hsl(var(--campus-text))',
-					'text-light': 'hsl(var(--campus-text-light))'
+					'text-light': 'hsl(var(--campus-text-light))',
+					success: 'hsl(var(--campus-success))',
+					warning: 'hsl(var(--campus-warning))',
+					error: 'hsl(var(--campus-error))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',

@@ -18,13 +18,13 @@ const Header = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <header className="bg-campus-white shadow-md border-b border-campus-blue-light sticky top-0 z-50">
+    <header className="bg-campus-white shadow-md border-b border-campus-primary-light sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
-            <GraduationCap className="h-8 w-8 text-campus-blue" />
-            <span className="text-2xl font-bold text-campus-blue">CampusFest</span>
+            <GraduationCap className="h-8 w-8 text-campus-primary" />
+            <span className="text-2xl font-bold text-campus-primary">CampusFest</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -33,9 +33,9 @@ const Header = () => {
               <Link
                 key={item.name}
                 to={item.href}
-                className={`text-sm font-medium transition-colors hover:text-campus-blue ${
+                className={`text-sm font-medium transition-colors hover:text-campus-primary ${
                   isActive(item.href)
-                    ? 'text-campus-blue border-b-2 border-campus-blue'
+                    ? 'text-campus-primary border-b-2 border-campus-primary'
                     : 'text-campus-text-light'
                 }`}
               >
@@ -64,15 +64,15 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="md:hidden border-t border-campus-blue-light bg-campus-white">
+          <div className="md:hidden border-t border-campus-primary-light bg-campus-white">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
                   to={item.href}
-                  className={`block px-3 py-2 text-base font-medium transition-colors hover:text-campus-blue hover:bg-campus-blue-light rounded-md ${
+                  className={`block px-3 py-2 text-base font-medium transition-colors hover:text-campus-primary hover:bg-campus-primary-light rounded-md ${
                     isActive(item.href)
-                      ? 'text-campus-blue bg-campus-blue-light'
+                      ? 'text-campus-primary bg-campus-primary-light'
                       : 'text-campus-text-light'
                   }`}
                   onClick={() => setIsMobileMenuOpen(false)}

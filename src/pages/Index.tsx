@@ -3,6 +3,7 @@ import Hero from '@/components/Hero';
 import EventCard from '@/components/EventCard';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Calendar, Users, Award, BarChart3, Bell, Star } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Index = () => {
   const upcomingEvents = [
@@ -85,11 +86,13 @@ const Index = () => {
             we make event management effortless and engaging.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="cta" size="lg">
-              Explore Features
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button variant="outline" size="lg">
+            <Link to="/features">
+              <Button variant="cta" size="lg">
+                Explore Features
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </Link>
+            <Button variant="secondary" size="lg">
               Watch Demo
             </Button>
           </div>
@@ -115,10 +118,12 @@ const Index = () => {
           </div>
 
           <div className="text-center">
-            <Button variant="outline" size="lg">
-              View All Events
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            <Link to="/events">
+              <Button variant="outline" size="lg">
+                View All Events
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
@@ -138,9 +143,9 @@ const Index = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature, index) => (
-              <div key={index} className="bg-card rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300 text-center">
-                <div className="flex items-center justify-center w-16 h-16 bg-campus-blue-light rounded-full mx-auto mb-4">
-                  <feature.icon className="w-8 h-8 text-campus-blue" />
+              <div key={index} className="bg-card rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300 text-center group">
+                <div className="flex items-center justify-center w-16 h-16 bg-campus-primary-light rounded-full mx-auto mb-4 group-hover:bg-campus-accent group-hover:scale-110 transition-all duration-300">
+                  <feature.icon className="w-8 h-8 text-campus-primary group-hover:text-campus-white transition-colors duration-300" />
                 </div>
                 <h3 className="text-xl font-semibold text-campus-text mb-3">{feature.title}</h3>
                 <p className="text-campus-text-light">{feature.description}</p>
@@ -149,16 +154,18 @@ const Index = () => {
           </div>
 
           <div className="text-center mt-12">
-            <Button variant="cta" size="lg">
-              Explore All Features
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            <Link to="/features">
+              <Button variant="cta" size="lg">
+                Explore All Features
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-campus-blue to-campus-blue-dark">
+      <section className="py-16 bg-gradient-to-r from-campus-primary to-campus-accent">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex items-center justify-center mb-6">
             <Star className="w-8 h-8 text-campus-white mr-3" />
@@ -171,12 +178,14 @@ const Index = () => {
             to create amazing campus experiences.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="hero" size="lg" className="bg-campus-white text-campus-blue hover:bg-campus-white/90">
+            <Button variant="hero" size="lg" className="bg-campus-white text-campus-primary hover:bg-campus-white/90">
               Register Now
             </Button>
-            <Button variant="outline" size="lg" className="border-campus-white text-campus-white hover:bg-campus-white hover:text-campus-blue">
-              Learn More
-            </Button>
+            <Link to="/about">
+              <Button variant="outline" size="lg" className="border-campus-white text-campus-white hover:bg-campus-white hover:text-campus-primary">
+                Learn More
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
