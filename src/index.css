@@ -15,40 +15,40 @@
     --popover: 0 0% 100%;
     --popover-foreground: 213 100% 8%;
 
-    --primary: 220 100% 55%;
+    --primary: 210 20% 25%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 220 100% 85%;
-    --primary-glow: 220 100% 70%;
+    --primary-light: 210 20% 92%;
+    --primary-glow: 210 20% 60%;
 
-    --secondary: 45 100% 95%;
-    --secondary-foreground: 220 25% 15%;
+    --secondary: 210 15% 96%;
+    --secondary-foreground: 210 20% 25%;
 
     --muted: 210 40% 96%;
     --muted-foreground: 215 16% 47%;
 
-    --accent: 160 100% 95%;
-    --accent-foreground: 160 100% 30%;
+    --accent: 210 15% 94%;
+    --accent-foreground: 210 20% 30%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 214 32% 91%;
     --input: 214 32% 91%;
-    --ring: 220 100% 55%;
+    --ring: 210 20% 25%;
 
-    /* CampusFest specific tokens - Enhanced Color Palette */
-    --campus-primary: 220 100% 55%;
-    --campus-primary-light: 220 100% 85%;
-    --campus-primary-dark: 220 100% 40%;
-    --campus-secondary: 45 100% 60%;
-    --campus-accent: 160 100% 50%;
+    /* CampusFest specific tokens - Subtle Color Palette */
+    --campus-primary: 210 20% 25%;
+    --campus-primary-light: 210 20% 92%;
+    --campus-primary-dark: 210 20% 15%;
+    --campus-secondary: 45 15% 88%;
+    --campus-accent: 210 15% 70%;
     --campus-white: 0 0% 100%;
-    --campus-gray: 210 15% 96%;
-    --campus-text: 220 25% 15%;
-    --campus-text-light: 220 15% 55%;
-    --campus-success: 142 76% 36%;
-    --campus-warning: 38 92% 50%;
-    --campus-error: 0 84% 60%;
+    --campus-gray: 210 10% 96%;
+    --campus-text: 210 20% 15%;
+    --campus-text-light: 210 15% 50%;
+    --campus-success: 142 35% 45%;
+    --campus-warning: 38 50% 55%;
+    --campus-error: 0 50% 55%;
 
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(var(--campus-primary)), hsl(var(--campus-accent)));
@@ -57,10 +57,10 @@
     --gradient-accent: linear-gradient(90deg, hsl(var(--campus-secondary)), hsl(var(--campus-accent)));
 
     /* Shadows */
-    --shadow-card: 0 4px 20px hsl(var(--campus-primary) / 0.15);
-    --shadow-button: 0 4px 20px hsl(var(--campus-primary) / 0.4);
-    --shadow-hero: 0 8px 40px hsl(var(--campus-primary) / 0.25);
-    --shadow-accent: 0 4px 16px hsl(var(--campus-accent) / 0.3);
+    --shadow-card: 0 4px 16px hsl(var(--campus-primary) / 0.08);
+    --shadow-button: 0 4px 16px hsl(var(--campus-primary) / 0.2);
+    --shadow-hero: 0 8px 32px hsl(var(--campus-primary) / 0.15);
+    --shadow-accent: 0 4px 12px hsl(var(--campus-accent) / 0.2);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

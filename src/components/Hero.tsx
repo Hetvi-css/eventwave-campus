@@ -12,7 +12,7 @@ const Hero = () => {
           alt="Campus Life" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-campus-primary/85 to-campus-accent/75"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-campus-primary/75 to-campus-primary-dark/65"></div>
       </div>
 
       {/* Hero Content */}
@@ -27,7 +27,7 @@ const Hero = () => {
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-campus-white mb-6 leading-tight">
             Your Campus,{' '}
-            <span className="bg-gradient-to-r from-campus-white to-campus-secondary bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-campus-white to-campus-accent bg-clip-text text-transparent">
               Your Events
             </span>
           </h1>
