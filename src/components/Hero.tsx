@@ -18,32 +18,27 @@ const Hero = () => {
       {/* Hero Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
-          {/* Badge */}
-          <div className="inline-flex items-center px-4 py-2 rounded-full bg-campus-white/20 backdrop-blur-sm text-campus-white mb-6 border border-campus-white/30">
-            <Star className="w-4 h-4 mr-2" />
-            <span className="text-sm font-medium">Trusted by 500+ Campuses</span>
-          </div>
 
           {/* Main Heading */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-campus-white mb-6 leading-tight">
-            Your Campus,{' '}
-            <span className="bg-gradient-to-r from-campus-white to-campus-accent bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-campus-white mb-8 leading-tight">
+            <span className="block">Your Campus,</span>
+            <span className="bg-gradient-to-r from-campus-white to-campus-accent bg-clip-text text-transparent block">
               Your Events
             </span>
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-campus-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-campus-white/90 mb-10 max-w-2xl mx-auto leading-relaxed">
             Simplifying event management within educational institutions. 
             Connect, organize, and participate in campus life like never before.
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
             <Button 
               variant="hero" 
               size="lg" 
-              className="text-lg px-8 py-3 h-auto group"
+              className="text-lg px-10 py-4 h-auto group min-w-[200px]"
             >
               Explore Events
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -51,7 +46,7 @@ const Hero = () => {
             <Button 
               variant="outline" 
               size="lg" 
-              className="text-lg px-8 py-3 h-auto border-campus-white text-campus-white hover:bg-campus-white hover:text-campus-primary"
+              className="text-lg px-10 py-4 h-auto min-w-[200px]"
             >
               Register Now
             </Button>
