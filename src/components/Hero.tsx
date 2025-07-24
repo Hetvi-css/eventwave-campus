@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-const heroImage = '/lovable-uploads/4a87b8ae-d8e2-4812-b9ab-9bb1143826af.png';
+const heroImage = '/lovable-uploads/425eeac9-0c53-4e53-a16a-e01b5e1ba81b.png';
 import { ArrowRight, Calendar, Users, Star } from 'lucide-react';
 
 const Hero = () => {
@@ -63,21 +63,21 @@ const Hero = () => {
               <div className="flex items-center justify-center w-12 h-12 bg-campus-white/20 rounded-full mx-auto mb-3 backdrop-blur-sm">
                 <Calendar className="w-6 h-6 text-campus-white" />
               </div>
-              <div className="text-2xl font-bold text-campus-white">2,500+</div>
+              <div className="text-2xl font-bold text-campus-white">0</div>
               <div className="text-campus-white/80">Events Organized</div>
             </div>
             <div className="text-center">
               <div className="flex items-center justify-center w-12 h-12 bg-campus-white/20 rounded-full mx-auto mb-3 backdrop-blur-sm">
                 <Users className="w-6 h-6 text-campus-white" />
               </div>
-              <div className="text-2xl font-bold text-campus-white">50,000+</div>
+              <div className="text-2xl font-bold text-campus-white">0</div>
               <div className="text-campus-white/80">Students Connected</div>
             </div>
             <div className="text-center">
               <div className="flex items-center justify-center w-12 h-12 bg-campus-white/20 rounded-full mx-auto mb-3 backdrop-blur-sm">
                 <Star className="w-6 h-6 text-campus-white" />
               </div>
-              <div className="text-2xl font-bold text-campus-white">98%</div>
+              <div className="text-2xl font-bold text-campus-white">0%</div>
               <div className="text-campus-white/80">Satisfaction Rate</div>
             </div>
           </div>

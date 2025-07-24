@@ -36,19 +36,19 @@
     --input: 214 32% 91%;
     --ring: 210 20% 25%;
 
-    /* CampusFest specific tokens - Subtle Color Palette */
-    --campus-primary: 210 20% 25%;
-    --campus-primary-light: 210 20% 92%;
-    --campus-primary-dark: 210 20% 15%;
-    --campus-secondary: 45 15% 88%;
-    --campus-accent: 210 15% 70%;
+    /* CampusFest specific tokens - Ultra Subtle Color Palette */
+    --campus-primary: 220 15% 20%;
+    --campus-primary-light: 220 10% 95%;
+    --campus-primary-dark: 220 20% 12%;
+    --campus-secondary: 210 8% 92%;
+    --campus-accent: 220 10% 65%;
     --campus-white: 0 0% 100%;
-    --campus-gray: 210 10% 96%;
-    --campus-text: 210 20% 15%;
-    --campus-text-light: 210 15% 50%;
-    --campus-success: 142 35% 45%;
-    --campus-warning: 38 50% 55%;
-    --campus-error: 0 50% 55%;
+    --campus-gray: 220 5% 97%;
+    --campus-text: 220 15% 18%;
+    --campus-text-light: 220 10% 55%;
+    --campus-success: 150 25% 40%;
+    --campus-warning: 40 35% 50%;
+    --campus-error: 0 35% 50%;
 
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(var(--campus-primary)), hsl(var(--campus-accent)));
