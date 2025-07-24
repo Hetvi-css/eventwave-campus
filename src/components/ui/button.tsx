@@ -18,7 +18,7 @@ const buttonVariants = cva(
           "bg-campus-secondary text-campus-text hover:bg-campus-secondary/90 hover:shadow-md",
         ghost: "text-campus-primary hover:bg-campus-primary-light hover:text-campus-primary-dark",
         link: "text-campus-primary underline-offset-4 hover:underline",
-        hero: "bg-gradient-to-r from-campus-primary to-campus-primary-dark text-campus-white hover:shadow-lg transform hover:-translate-y-1 text-base font-semibold",
+        hero: "bg-gradient-to-r from-campus-primary to-campus-accent text-campus-white hover:shadow-lg transform hover:-translate-y-1 text-base font-semibold",
         cta: "bg-campus-primary text-campus-white hover:bg-campus-primary-dark shadow-md hover:shadow-lg transform hover:scale-105 font-medium",
         accent: "bg-campus-accent text-campus-white hover:bg-campus-accent/90 shadow-md hover:shadow-lg transform hover:-translate-y-0.5",
       },

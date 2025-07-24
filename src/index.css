@@ -36,24 +36,24 @@
     --input: 214 32% 91%;
     --ring: 210 20% 25%;
 
-    /* CampusFest specific tokens - Ultra Subtle Color Palette */
-    --campus-primary: 220 15% 20%;
-    --campus-primary-light: 220 10% 95%;
-    --campus-primary-dark: 220 20% 12%;
-    --campus-secondary: 210 8% 92%;
-    --campus-accent: 220 10% 65%;
+    /* CampusFest specific tokens - Modern Teal & Orange Palette */
+    --campus-primary: 180 65% 35%;
+    --campus-primary-light: 180 60% 95%;
+    --campus-primary-dark: 180 70% 25%;
+    --campus-secondary: 35 80% 92%;
+    --campus-accent: 25 85% 60%;
     --campus-white: 0 0% 100%;
-    --campus-gray: 220 5% 97%;
-    --campus-text: 220 15% 18%;
-    --campus-text-light: 220 10% 55%;
-    --campus-success: 150 25% 40%;
-    --campus-warning: 40 35% 50%;
-    --campus-error: 0 35% 50%;
+    --campus-gray: 180 15% 96%;
+    --campus-text: 180 60% 15%;
+    --campus-text-light: 180 30% 45%;
+    --campus-success: 140 60% 45%;
+    --campus-warning: 35 85% 55%;
+    --campus-error: 0 65% 55%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--campus-primary)), hsl(var(--campus-accent)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--campus-primary)), hsl(var(--campus-primary-dark)));
     --gradient-card: linear-gradient(145deg, hsl(var(--campus-white)), hsl(var(--campus-gray)));
-    --gradient-button: linear-gradient(135deg, hsl(var(--campus-primary)), hsl(var(--campus-primary-dark)));
+    --gradient-button: linear-gradient(135deg, hsl(var(--campus-primary)), hsl(var(--campus-accent)));
     --gradient-accent: linear-gradient(90deg, hsl(var(--campus-secondary)), hsl(var(--campus-accent)));
 
     /* Shadows */
